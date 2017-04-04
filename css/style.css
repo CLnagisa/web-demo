@@ -1,14 +1,21 @@
+.header{
+	width: 100%;
+	height: 5.0rem;
+	background-color: #fff;
+}
 
 .body-left {
-	padding-right: .2rem;
+	margin-right: .2rem;
 }
 
 .body-right {
-	padding-left: .2rem;
+	margin-left: .2rem;
 }
 
 .body-left, .body-right {
 	background-color: #fff;
+	margin-bottom: .4rem;
+	border-radius: .5rem;
 }
 
 .top-image img {
@@ -17,12 +24,12 @@
 }
 
 .bottom-state {
-	height: 2rem;
-	line-height: 2rem;
+	height: 3rem;
+	line-height: 3rem;
 }
 
 .state-ico {
-	background:url(../images/ico1.png) no-repeat -1.4rem -1.6rem;
+	background:url(../images/ico1.png) no-repeat -2.1rem -1.8rem;
 	height: 100%;
 	width: 2rem;
 	display: inline-block;
@@ -30,7 +37,7 @@
 }
 
 .state-ico-active {
-	background:url(../images/ico1.png) no-repeat -4.4rem -1.6rem;
+	background:url(../images/ico1.png) no-repeat -5.8rem -1.8rem;
 }
 
 .bottom-l {
@@ -48,16 +55,17 @@
 }
 
 .bottom-l img {
-	height: 2.5rem;
-	width: 2.5rem;
+	height: 3.1rem;
+	width: 3.1rem;
 	border-radius: 50%;
 	position: absolute;
-	left: .3rem;
-	top: -.7rem;
+	left: .5rem;
+	top: -.9rem;
 }
 
 .count {
 	display: inline-block;
 	font-size: 1rem;
 	float: right;
+	padding-right: .3rem;
 }

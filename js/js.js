@@ -13,8 +13,10 @@
 
 	$(window).bind("scroll", function() {
 		var aa = $(window).height() + $(document).scrollTop() - $(document).height();
-		console.log(aa);
 		if(aa > -10) {
+			$.aa();
+			$.aa();
+			$.aa();
 			$.aa();
 		}
 	})

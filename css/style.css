@@ -1,0 +1,63 @@
+
+.body-left {
+	padding-right: .2rem;
+}
+
+.body-right {
+	padding-left: .2rem;
+}
+
+.body-left, .body-right {
+	background-color: #fff;
+}
+
+.top-image img {
+	width: 100%;
+	height: auto;
+}
+
+.bottom-state {
+	height: 2rem;
+	line-height: 2rem;
+}
+
+.state-ico {
+	background:url(../images/ico1.png) no-repeat -1.4rem -1.6rem;
+	height: 100%;
+	width: 2rem;
+	display: inline-block;
+	float: left;
+}
+
+.state-ico-active {
+	background:url(../images/ico1.png) no-repeat -4.4rem -1.6rem;
+}
+
+.bottom-l {
+	float: left;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.bottom-r {
+	float: right;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.bottom-l img {
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 50%;
+	position: absolute;
+	left: .3rem;
+	top: -.7rem;
+}
+
+.count {
+	display: inline-block;
+	font-size: 1rem;
+	float: right;
+}
